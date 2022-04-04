@@ -6,11 +6,26 @@
 //
 
 import SwiftUI
+import WebKit
+
+extension View {
+    func toAnyView() -> AnyView {
+        AnyView(self)
+    }
+}
 
 struct ContentView: View {
+    
+    @State private var showLoading: Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+    
+        VStack {
+            
+            WebView(url: URL(string: "http://10.89.164.49:4200/#/payment-gateway/card/?channelId=iOS")!,
+                    showLoading: $showLoading)
+                .overlay(showLoading ? ProgressView("Loading...").toAnyView(): EmptyView().toAnyView())
+        }
     }
 }
 

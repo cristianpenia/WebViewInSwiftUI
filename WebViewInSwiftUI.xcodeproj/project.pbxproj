@@ -14,6 +14,7 @@
 		773765B627F2074E00E196CD /* WebViewInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773765B527F2074E00E196CD /* WebViewInSwiftUITests.swift */; };
 		773765C027F2074E00E196CD /* WebViewInSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773765BF27F2074E00E196CD /* WebViewInSwiftUIUITests.swift */; };
 		773765C227F2074E00E196CD /* WebViewInSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773765C127F2074E00E196CD /* WebViewInSwiftUIUITestsLaunchTests.swift */; };
+		773765CF27F2076900E196CD /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773765CE27F2076900E196CD /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		773765BB27F2074E00E196CD /* WebViewInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		773765BF27F2074E00E196CD /* WebViewInSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInSwiftUIUITests.swift; sourceTree = "<group>"; };
 		773765C127F2074E00E196CD /* WebViewInSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		773765CE27F2076900E196CD /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				773765A627F2074A00E196CD /* ContentView.swift */,
 				773765A827F2074E00E196CD /* Assets.xcassets */,
 				773765AA27F2074E00E196CD /* Preview Content */,
+				773765CE27F2076900E196CD /* WebView.swift */,
 			);
 			path = WebViewInSwiftUI;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773765CF27F2076900E196CD /* WebView.swift in Sources */,
 				773765A727F2074A00E196CD /* ContentView.swift in Sources */,
 				773765A527F2074A00E196CD /* WebViewInSwiftUIApp.swift in Sources */,
 			);
