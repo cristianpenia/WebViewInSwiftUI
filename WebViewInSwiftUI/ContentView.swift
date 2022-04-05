@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
-import WebKit
-
-extension View {
-    func toAnyView() -> AnyView {
-        AnyView(self)
-    }
-}
+//import WebKit
+import Azteca360
+//extension View {
+//    func toAnyView() -> AnyView {
+//        AnyView(self)
+//    }
+//}
 
 struct ContentView: View {
     
@@ -22,9 +22,12 @@ struct ContentView: View {
     
         VStack {
             
-            WebView(url: URL(string: "http://10.89.164.49:4200/#/payment-gateway/card/?channelId=iOS")!,
-                    showLoading: $showLoading)
-                .overlay(showLoading ? ProgressView("Loading...").toAnyView(): EmptyView().toAnyView())
+            ViewControllerRepresentable()
+//            ViewControllerRepresentable()
+//            
+//            WebView(url: URL(string: "http://10.89.164.49:4200/#/payment-gateway/card/?channelId=iOS")!,
+//                    showLoading: $showLoading)
+//                .overlay(showLoading ? ProgressView("Loading...").toAnyView(): EmptyView().toAnyView())
         }
     }
 }

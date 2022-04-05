@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7724A66027FBAB1400AE8814 /* qwerty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7724A65F27FBAB1400AE8814 /* qwerty.swift */; };
+		7724A66227FBAEE900AE8814 /* Green_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7724A66127FBAEE900AE8814 /* Green_VC.swift */; };
+		7724A66727FBB5C400AE8814 /* Azteca360 in Frameworks */ = {isa = PBXBuildFile; productRef = 7724A66627FBB5C400AE8814 /* Azteca360 */; };
 		773765A527F2074A00E196CD /* WebViewInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773765A427F2074A00E196CD /* WebViewInSwiftUIApp.swift */; };
 		773765A727F2074A00E196CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773765A627F2074A00E196CD /* ContentView.swift */; };
 		773765A927F2074E00E196CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773765A827F2074E00E196CD /* Assets.xcassets */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7724A65E27FBA48F00AE8814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7724A65F27FBAB1400AE8814 /* qwerty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwerty.swift; sourceTree = "<group>"; };
+		7724A66127FBAEE900AE8814 /* Green_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_VC.swift; sourceTree = "<group>"; };
+		7724A66427FBB5A500AE8814 /* Azteca360 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Azteca360; path = ../../Azteca360/Azteca360; sourceTree = "<group>"; };
 		773765A127F2074A00E196CD /* WebViewInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		773765A427F2074A00E196CD /* WebViewInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInSwiftUIApp.swift; sourceTree = "<group>"; };
 		773765A627F2074A00E196CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7724A66727FBB5C400AE8814 /* Azteca360 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,13 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7724A66327FBB5A500AE8814 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7724A66427FBB5A500AE8814 /* Azteca360 */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		7724A66527FBB5C400AE8814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7737659827F2074A00E196CD = {
 			isa = PBXGroup;
 			children = (
+				7724A66327FBB5A500AE8814 /* Packages */,
 				773765A327F2074A00E196CD /* WebViewInSwiftUI */,
 				773765B427F2074E00E196CD /* WebViewInSwiftUITests */,
 				773765BE27F2074E00E196CD /* WebViewInSwiftUIUITests */,
 				773765A227F2074A00E196CD /* Products */,
+				7724A66527FBB5C400AE8814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,11 +121,14 @@
 		773765A327F2074A00E196CD /* WebViewInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7724A65E27FBA48F00AE8814 /* Info.plist */,
 				773765A427F2074A00E196CD /* WebViewInSwiftUIApp.swift */,
 				773765A627F2074A00E196CD /* ContentView.swift */,
 				773765A827F2074E00E196CD /* Assets.xcassets */,
 				773765AA27F2074E00E196CD /* Preview Content */,
 				773765CE27F2076900E196CD /* WebView.swift */,
+				7724A65F27FBAB1400AE8814 /* qwerty.swift */,
+				7724A66127FBAEE900AE8814 /* Green_VC.swift */,
 			);
 			path = WebViewInSwiftUI;
 			sourceTree = "<group>";
@@ -146,6 +174,9 @@
 			dependencies = (
 			);
 			name = WebViewInSwiftUI;
+			packageProductDependencies = (
+				7724A66627FBB5C400AE8814 /* Azteca360 */,
+			);
 			productName = WebViewInSwiftUI;
 			productReference = 773765A127F2074A00E196CD /* WebViewInSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -263,6 +294,8 @@
 				773765CF27F2076900E196CD /* WebView.swift in Sources */,
 				773765A727F2074A00E196CD /* ContentView.swift in Sources */,
 				773765A527F2074A00E196CD /* WebViewInSwiftUIApp.swift in Sources */,
+				7724A66027FBAB1400AE8814 /* qwerty.swift in Sources */,
+				7724A66227FBAEE900AE8814 /* Green_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +459,7 @@
 				DEVELOPMENT_TEAM = ZJJ275SY3R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebViewInSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +489,7 @@
 				DEVELOPMENT_TEAM = ZJJ275SY3R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebViewInSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -589,6 +624,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7724A66627FBB5C400AE8814 /* Azteca360 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Azteca360;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7737659927F2074A00E196CD /* Project object */;
 }
